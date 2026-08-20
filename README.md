@@ -2,11 +2,11 @@ Admissibility Notes
 
 Independent first-principles research on admissibility, representation, constrained continuation, and deterministic control for adaptive systems.
 
-This repository records the upstream research lineage that led to a broader engineering program on state coherence, bounded continuation, execution control, and fail-safe recovery in adaptive computational systems.
+The work developed outside the conventional AI/ML research pipeline and led to a broader engineering program on state coherence, bounded continuation, execution gating, and fail-safe recovery.
 
-The work developed outside the conventional AI/ML research pipeline and later contributed to a control architecture that progressed through U.S. patent examination to allowance.
+That engineering path produced an allowed U.S. patent application for state-coherent recursive processing, a completed deterministic execution-control implementation, and a finite Lean semantic core now frozen and package-integrated at `v0.1.126`.
 
-Current work includes formalization of key structural distinctions in Lean, including the separation of represented admissibility from epistemic uncertainty, represented content from realized content, and local or execution validity from structural admissibility.
+The repository is organized so that the engineering artifacts can be inspected independently of the upstream first-principles framework from which the control problem emerged.
 
 ## Start here
 
