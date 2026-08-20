@@ -32,6 +32,8 @@ That question led to the recursive-control architecture that progressed through 
 
 The upstream framework remains independently contestable; the downstream engineering artifacts are intended to be inspectable on their own technical merits.
 
+Earlier working notes documenting the pre-engineering development path are preserved in [research-lineage/](./research-lineage/).
+
 ## Why this is unusual
 
 Two aspects of the work are intentionally explicit.
