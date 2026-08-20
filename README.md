@@ -19,6 +19,16 @@ Current work includes formalization of key structural distinctions in Lean, incl
 3. **Lean formalization of admissibility and representation semantics**  
    Active formalization of the upstream structural framework, including explicit separation of represented admissibility from epistemic uncertainty, represented content from realized content, and local or execution validity from structural admissibility. Seven of eight finite-core closure criteria are structurally closed; the remaining step is a repository-wide anti-lifting audit and freeze.
 
+## Research lineage
+
+The engineering program emerged from a longer independent first-principles inquiry into admissibility, persistence, representation, and constrained continuation.
+
+That upstream framework was not treated as sufficient on its own. It generated a concrete downstream engineering question: how can an adaptive computational system continue changing while preserving the invariants required for coherent operation?
+
+That question led to the recursive-control architecture that progressed through U.S. patent examination to allowance, and subsequently to deterministic continuation and execution-control mechanisms that were implemented and behaviorally verified.
+
+The upstream framework remains independently contestable; the downstream engineering artifacts are intended to be inspectable on their own technical merits.
+
 Current status
 
 - Upstream structural framework: established
