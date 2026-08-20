@@ -15,7 +15,7 @@ Current work includes formalization of key structural distinctions in Lean, incl
 2. **[Deterministic execution-control implementation](https://github.com/reachbsr-EKA/admissibility-notes/blob/main/EKA_Deterministic_Execution_Control_Technical_Evidence_Note.pdf)**
 
 3. **Lean formalization of admissibility and representation semantics**  
-   Active formalization of the upstream structural framework, including explicit separation of represented admissibility from epistemic uncertainty, represented content from realized content, and local or execution validity from structural admissibility. Seven of eight finite-core closure criteria are structurally closed; the remaining step is a repository-wide anti-lifting audit and freeze.
+   Finite semantic target completed and frozen at `v0.1.126` (`28a5933`). All nine defined closure criteria are closed, including separation of local validity, execution admissibility, represented structural admissibility, realization, epistemic uncertainty, and ontological-global lifting. Lean module checks, root compilation, `lake build` (18 jobs), and runtime verification all pass. The package-integrated stopping rule is now `STOP ONTOLOGICAL EXPANSION`; further continuation requires a specific downstream engineering theorem, executable requirement, or explicit research branch.
 
 ## Research lineage
 
