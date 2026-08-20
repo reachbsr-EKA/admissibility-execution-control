@@ -13,6 +13,9 @@ Current work includes formalization of key structural distinctions in Lean, incl
 1. **Allowed U.S. patent application — Systems and Methods for State-Coherent Recursive Processing**  
    U.S. Patent Application No. 19/394,177. A deterministic recursive-control architecture for adaptive computational systems, including invariant monitoring, bounded state updates, fail-safe recovery, distributed coordination, and substrate-independent implementation.
 
+2. **Deterministic execution-control implementation**  
+   Completed control-plane implementation for adaptive AI/computational systems, including continuation gating, execution interlocks, state recovery, deterministic admissibility checks, and bounded halt behavior. The finite behavioral verification target was completed and independently verified before the core build was frozen.
+
 Current status
 
 - Upstream structural framework: established
