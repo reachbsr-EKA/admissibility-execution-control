@@ -10,7 +10,7 @@ The repository is organized so that the engineering artifacts can be inspected i
 
 ## Start here
 
-1. **[Allowed U.S. patent application — Systems and Methods for State-Coherent Recursive Processing]([https://github.com/reachbsr-EKA/admissibility-execution-control/blob/main/USPTO_Allowance_Evidence_Extract_P14190US01.pdf)**
+1. **[Allowed U.S. patent application — Systems and Methods for State-Coherent Recursive Processing](https://github.com/reachbsr-EKA/admissibility-execution-control/blob/main/USPTO_Allowance_Evidence_Extract_P14190US01.pdf)**
 
 2. **[Deterministic execution-control implementation](https://github.com/reachbsr-EKA/admissibility-execution-control/blob/main/EKA_Deterministic_Execution_Control_Technical_Evidence_Note.pdf)**
 
