@@ -8,6 +8,11 @@ The work developed outside the conventional AI/ML research pipeline and later co
 
 Current work includes formalization of key structural distinctions in Lean, including the separation of represented admissibility from epistemic uncertainty, represented content from realized content, and local or execution validity from structural admissibility.
 
+## Start here
+
+1. **Allowed U.S. patent application — Systems and Methods for State-Coherent Recursive Processing**  
+   U.S. Patent Application No. 19/394,177. A deterministic recursive-control architecture for adaptive computational systems, including invariant monitoring, bounded state updates, fail-safe recovery, distributed coordination, and substrate-independent implementation.
+
 Current status
 
 - Upstream structural framework: established
