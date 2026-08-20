@@ -29,6 +29,16 @@ That question led to the recursive-control architecture that progressed through 
 
 The upstream framework remains independently contestable; the downstream engineering artifacts are intended to be inspectable on their own technical merits.
 
+## Why this is unusual
+
+Two aspects of the work are intentionally explicit.
+
+First, the allowed U.S. patent application is not limited to a narrow AI-safety implementation. Its architecture is described as substrate-independent and extends across adaptive computational systems through invariant monitoring, bounded continuation, deterministic feedback, fail-safe recovery, distributed coordination, and substrate adaptation.
+
+Second, the work emerged outside the conventional AI/ML research career pipeline. My background spans Electrical & Electronics Engineering, software consulting, operations, entrepreneurship, and commercial leadership. The resulting control-systems framing was developed independently before being carried into AI-safety and superintelligence research.
+
+Neither fact is offered as proof of correctness. Their significance is that the engineering program arose from an unusually independent problem-formation path and is intended to be inspected on its technical merits.
+
 Current status
 
 - Upstream structural framework: established
