@@ -16,6 +16,9 @@ Current work includes formalization of key structural distinctions in Lean, incl
 2. **Deterministic execution-control implementation**  
    Completed control-plane implementation for adaptive AI/computational systems, including continuation gating, execution interlocks, state recovery, deterministic admissibility checks, and bounded halt behavior. The finite behavioral verification target was completed and independently verified before the core build was frozen.
 
+3. **Lean formalization of admissibility and representation semantics**  
+   Active formalization of the upstream structural framework, including explicit separation of represented admissibility from epistemic uncertainty, represented content from realized content, and local or execution validity from structural admissibility. Seven of eight finite-core closure criteria are structurally closed; the remaining step is a repository-wide anti-lifting audit and freeze.
+
 Current status
 
 - Upstream structural framework: established
