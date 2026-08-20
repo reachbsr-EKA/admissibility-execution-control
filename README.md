@@ -10,16 +10,16 @@ The repository is organized so that the engineering artifacts can be inspected i
 
 ## Start here
 
-1. **[Allowed U.S. patent application — Systems and Methods for State-Coherent Recursive Processing](https://github.com/reachbsr-EKA/admissibility-notes/blob/main/USPTO_Allowance_Evidence_Extract_P14190US01.pdf)**
+1. **[Allowed U.S. patent application — Systems and Methods for State-Coherent Recursive Processing](https://github.com/reachbsr-EKA/admissibility-execution-control/blob/main/USPTO_Allowance_Evidence_Extract_P14190US01.pdf)**
 
-2. **[Deterministic execution-control implementation](https://github.com/reachbsr-EKA/admissibility-notes/blob/main/EKA_Deterministic_Execution_Control_Technical_Evidence_Note.pdf)**
+2. **[Deterministic execution-control implementation](https://github.com/reachbsr-EKA/admissibility-execution-control/blob/main/EKA_Deterministic_Execution_Control_Technical_Evidence_Note.pdf)**
 
 3. Lean finite semantic core: completed, verified, frozen, and package-integrated at `v0.1.126`
 - Closure: 9/9 defined criteria closed
 - Verification: Lean module checks PASS · root compile PASS · `lake build` PASS (18 jobs) · runtime PASS
 - Stopping rule: `STOP ONTOLOGICAL EXPANSION`
 
-4. **[Strategic implications — bounded execution as AI infrastructure](https://github.com/reachbsr-EKA/admissibility-notes/blob/main/Strategic_Implications_Bounded_Execution_as_AI_Infrastructure.pdf)**  
+4. **[Strategic implications — bounded execution as AI infrastructure](https://github.com/reachbsr-EKA/admissibility-execution-control/blob/main/Strategic_Implications_Bounded_Execution_as_AI_Infrastructure.pdf)**  
    Strategic analysis of why the durable bottleneck in high-consequence AI may be reliable execution under uncertainty rather than intelligence generation alone. The paper argues for a control layer centered on execution gating, invariant preservation, auditability, fail-safe behavior, and institutional trust.
 
 ## Research lineage
