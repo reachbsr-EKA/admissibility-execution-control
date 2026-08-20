@@ -1,4 +1,4 @@
-Admissibility Notes
+# Admissibility and Deterministic Execution Control
 
 Independent first-principles research on admissibility, representation, constrained continuation, and deterministic control for adaptive systems.
 
