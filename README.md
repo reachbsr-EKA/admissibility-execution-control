@@ -14,7 +14,7 @@ External examination checkpoint within the research trajectory. U.S. Patent Appl
 Completed supervisory control layer separating probabilistic/adaptive generation from deterministic execution authority. Candidate continuations are gated before actuation through `RESPOND`, `REFUSE`, `DEFER`, or `SILENCE`, with explicit execution interlocks, recovery conditions, and bounded halt behavior. The defined 13-criterion behavioral target was completed and frozen with no remaining core-build dependencies.
 
 3. **Lean finite semantic core — completed and frozen at `v0.1.126` (`28a5933`)**  
-The defined finite semantic target is closed and package-integrated: 9/9 closure criteria are satisfied; Lean module checks PASS; root compile PASS; `lake build` PASS (18 jobs); runtime PASS. The stopping rule is `STOP ONTOLOGICAL   EXPANSION`, meaning further formal continuation requires a specific downstream engineering theorem, executable requirement, or explicit research branch.
+The defined finite semantic target is closed and package-integrated: 9/9 closure criteria are satisfied; Lean module checks PASS; root compile PASS; `lake build` PASS (18 jobs); runtime PASS. The stopping rule is `STOP ONTOLOGICAL EXPANSION`, meaning further formal continuation requires a specific downstream engineering theorem, executable requirement, or explicit research branch.
 
 The Lean source tree is not currently published in this repository. This entry records the frozen formal state and verification results without implying public source-code inspection.
 
@@ -49,4 +49,4 @@ None of this is offered as proof that the upstream framework is correct or that 
 - Lean finite semantic core: completed, verified, frozen, and package-integrated at `v0.1.126`
 - Closure: 9/9 defined criteria closed
 - Verification: Lean module checks PASS · root compile PASS · `lake build` PASS (18 jobs) · runtime PASS
-- Stopping rule: `STOP ONTOLOGICAL EXPANSION'
+- Stopping rule: `STOP ONTOLOGICAL EXPANSION`
