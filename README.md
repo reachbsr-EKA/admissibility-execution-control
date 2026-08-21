@@ -7,7 +7,8 @@ The repository is organized so that each downstream artifact can be inspected on
 
 ## Start here
 
-1. **[Allowed U.S. patent application — Systems and Methods for State-Coherent Recursive Processing](https://github.com/reachbsr-EKA/admissibility-execution-control/blob/main/USPTO_Allowance_Evidence_Extract_P14190US01_GitHub.pdf)**
+1. **[Allowed U.S. patent application — Systems and Methods for State-Coherent Recursive Processing](./USPTO_Allowance_Evidence_Extract_P14190US01.pdf)**  
+External examination checkpoint within the research trajectory. U.S. Patent Application No. 19/394,177 progressed through substantive examination to allowance with all 17 claims allowed. The claimed architecture covers recursive state-coherence control through invariant monitoring, bounded continuation, deterministic feedback, fail-safe recovery, distributed coordination, and substrate-independent implementation.
 
 2. **[Deterministic execution-control implementation](./EKA_Deterministic_Execution_Control_Technical_Evidence_Note.pdf)**  
 Completed supervisory control layer separating probabilistic/adaptive generation from deterministic execution authority. Candidate continuations are gated before actuation through `RESPOND`, `REFUSE`, `DEFER`, or `SILENCE`, with explicit execution interlocks, recovery conditions, and bounded halt behavior. The defined 13-criterion behavioral target was completed and frozen with no remaining core-build dependencies.
