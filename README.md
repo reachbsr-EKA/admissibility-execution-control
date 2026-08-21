@@ -1,12 +1,9 @@
 # Admissibility and Deterministic Execution Control
 
-Independent first-principles research on admissibility, representation, constrained continuation, and deterministic control for adaptive systems.
-
-The work developed outside the conventional AI/ML research pipeline and led to a broader engineering program on state coherence, bounded continuation, execution gating, and fail-safe recovery.
-
-That engineering path produced an allowed U.S. patent application for state-coherent recursive processing, a completed deterministic execution-control implementation, and a finite Lean semantic core now frozen and package-integrated at `v0.1.126`.
-
-The repository is organized so that the engineering artifacts can be inspected independently of the upstream first-principles framework from which the control problem emerged.
+Independent first-principles research on admissibility, representation, constrained continuation, state coherence, and deterministic execution control for adaptive systems.
+The work developed outside the conventional AI/ML research pipeline. An independently formed structural framework around admissibility, persistence, representation, and constrained continuation generated a concrete downstream control problem: how can an adaptive computational system continue changing while preserving the invariants required for coherent operation?
+That question produced a substrate-independent recursive-control architecture that progressed through substantive U.S. patent examination to allowance with all 17 claims allowed. The work then continued into deterministic execution-control implementation, finite behavioral completion, and a Lean semantic core now closed, verified, frozen, and package-integrated at `v0.1.126`.
+The repository is organized so that each downstream artifact can be inspected on its own technical merits while preserving the research lineage that connects first-principles inquiry to engineering implementation and formal closure.
 
 ## Start here
 
