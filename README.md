@@ -7,7 +7,7 @@ The repository is organized so that each downstream artifact can be inspected on
 
 ## Start here
 
-1. **[Allowed U.S. patent application — Systems and Methods for State-Coherent Recursive Processing](./USPTO_Allowance_Evidence_Extract_P14190US01.pdf)**  
+1. **[Allowed U.S. patent application — Systems and Methods for State-Coherent Recursive Processing](./USPTO_Allowance_Evidence_Extract_P14190US01_GitHub.pdf)**  
 External examination checkpoint within the research trajectory. U.S. Patent Application No. 19/394,177 progressed through substantive examination to allowance with all 17 claims allowed. The claimed architecture covers recursive state-coherence control through invariant monitoring, bounded continuation, deterministic feedback, fail-safe recovery, distributed coordination, and substrate-independent implementation.
 
 2. **[Deterministic execution-control implementation](./EKA_Deterministic_Execution_Control_Technical_Evidence_Note.pdf)**  
