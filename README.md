@@ -23,16 +23,12 @@ The repository is organized so that the engineering artifacts can be inspected i
    Strategic analysis of why the durable bottleneck in high-consequence AI may be reliable execution under uncertainty rather than intelligence generation alone. The paper argues for a control layer centered on execution gating, invariant preservation, auditability, fail-safe behavior, and institutional trust.
 
 ## Research lineage
-
 The engineering program emerged from a longer independent first-principles inquiry into admissibility, persistence, representation, and constrained continuation.
-
 That upstream framework was not treated as sufficient on its own. It generated a concrete downstream engineering question: how can an adaptive computational system continue changing while preserving the invariants required for coherent operation?
-
-That question led to the recursive-control architecture that progressed through U.S. patent examination to allowance, and subsequently to deterministic continuation and execution-control mechanisms that were implemented and behaviorally verified.
-
-The upstream framework remains independently contestable; the downstream engineering artifacts are intended to be inspectable on their own technical merits.
-
-Earlier working notes documenting the pre-engineering development path are preserved in [research-lineage/](./research-lineage/).
+That question led to a substrate-independent recursive-control architecture that progressed through substantive U.S. patent examination to allowance with all 17 claims allowed.
+The work then continued beyond the patent into deterministic continuation and execution-control mechanisms, finite behavioral completion, and a Lean formalization whose defined semantic core is now closed, verified, frozen, and package-integrated at `v0.1.126`.
+The upstream framework remains independently contestable; the patent, implementation, and formalization are intended to be inspectable as separate downstream consequences rather than requiring prior agreement with the ontology.
+Earlier working notes documenting the pre-engineering development path are preserved in [`research-lineage/`](./research-lineage/).
 
 ## Why this is unusual
 
