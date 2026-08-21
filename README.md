@@ -12,10 +12,10 @@ The repository is organized so that each downstream artifact can be inspected on
 2. **[Deterministic execution-control implementation](./EKA_Deterministic_Execution_Control_Technical_Evidence_Note.pdf)**  
 Completed supervisory control layer separating probabilistic/adaptive generation from deterministic execution authority. Candidate continuations are gated before actuation through `RESPOND`, `REFUSE`, `DEFER`, or `SILENCE`, with explicit execution interlocks, recovery conditions, and bounded halt behavior. The defined 13-criterion behavioral target was completed and frozen with no remaining core-build dependencies.
 
-3. Lean finite semantic core: completed, verified, frozen, and package-integrated at `v0.1.126`
-- Closure: 9/9 defined criteria closed
-- Verification: Lean module checks PASS · root compile PASS · `lake build` PASS (18 jobs) · runtime PASS
-- Stopping rule: `STOP ONTOLOGICAL EXPANSION`
+3. **Lean finite semantic core — completed and frozen at `v0.1.126` (`28a5933`)**  
+The defined finite semantic target is closed and package-integrated: 9/9 closure criteria are satisfied; Lean module checks PASS; root compile PASS; `lake build` PASS (18 jobs); runtime PASS. The stopping rule is `STOP ONTOLOGICAL   EXPANSION`, meaning further formal continuation requires a specific downstream engineering theorem, executable requirement, or explicit research branch.
+
+The Lean source tree is not currently published in this repository. This entry records the frozen formal state and verification results without implying public source-code inspection.
 
 4. **[Strategic implications — bounded execution as AI infrastructure](https://github.com/reachbsr-EKA/admissibility-execution-control/blob/main/Strategic_Implications_Bounded_Execution_as_AI_Infrastructure.pdf)**  
    Strategic analysis of why the durable bottleneck in high-consequence AI may be reliable execution under uncertainty rather than intelligence generation alone. The paper argues for a control layer centered on execution gating, invariant preservation, auditability, fail-safe behavior, and institutional trust.
