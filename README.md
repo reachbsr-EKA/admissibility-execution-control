@@ -44,10 +44,13 @@ Second, the work emerged outside the conventional AI/ML research career pipeline
 
 Neither fact is offered as proof of correctness. Their significance is that the engineering program arose from an unusually independent problem-formation path and is intended to be inspected on its technical merits.
 
-Current status
+## Current status
 
 - Upstream structural framework: established
 - U.S. patent application derived from downstream engineering work: allowed
 - Deterministic execution-control implementation: completed and behaviorally verified
-- Lean formalization: active
-- Current Lean finite-core closure: 7 of 8 criteria structurally closed; final repository-wide anti-lifting audit pending
+- Lean finite semantic core: completed, verified, frozen, and package-integrated at `v0.1.126`
+- Closure: 9/9 defined criteria closed
+- Verification: Lean module checks PASS · root compile PASS · `lake build` PASS (18 jobs) · runtime PASS
+- Stopping rule: `STOP ONTOLOGICAL EXPANSION`
+- 
