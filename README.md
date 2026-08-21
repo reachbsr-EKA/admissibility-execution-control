@@ -43,10 +43,9 @@ None of this is offered as proof that the upstream framework is correct or that 
 
 ## Current status
 
-- Upstream structural framework: established
-- U.S. patent application derived from downstream engineering work: allowed
-- Deterministic execution-control implementation: completed and behaviorally verified
-- Lean finite semantic core: completed, verified, frozen, and package-integrated at `v0.1.126`
-- Closure: 9/9 defined criteria closed
-- Verification: Lean module checks PASS · root compile PASS · `lake build` PASS (18 jobs) · runtime PASS
-- Stopping rule: `STOP ONTOLOGICAL EXPANSION`
+- Patent: U.S. Application No. 19/394,177 allowed with all 17 claims allowed
+- Execution-control implementation: completed
+- Finite behavioral target: completed and frozen
+- Lean semantic core: 9/9 closure criteria satisfied at `v0.1.126`
+- Verification: module checks PASS · root compile PASS · `lake build` PASS (18 jobs) · runtime PASS
+- Formal stopping rule: `STOP ONTOLOGICAL EXPANSION`
