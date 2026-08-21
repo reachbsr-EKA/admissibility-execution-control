@@ -18,8 +18,8 @@ The defined finite semantic target is closed and package-integrated: 9/9 closure
 
 The Lean source tree is not currently published in this repository. This entry records the frozen formal state and verification results without implying public source-code inspection.
 
-4. **[Strategic implications — bounded execution as AI infrastructure](https://github.com/reachbsr-EKA/admissibility-execution-control/blob/main/Strategic_Implications_Bounded_Execution_as_AI_Infrastructure.pdf)**  
-   Strategic analysis of why the durable bottleneck in high-consequence AI may be reliable execution under uncertainty rather than intelligence generation alone. The paper argues for a control layer centered on execution gating, invariant preservation, auditability, fail-safe behavior, and institutional trust.
+4. **[Strategic implications — bounded execution as AI infrastructure](./Strategic_Implications_Bounded_Execution_as_AI_Infrastructure.pdf)**  
+Downstream strategic analysis, not primary technical evidence. The paper examines why reliable execution under uncertainty may become a more durable bottleneck than intelligence generation alone, and argues for a control layer centered on execution gating, invariant preservation, auditability, fail-safe behavior, and institutional trust.
 
 ## Research lineage
 The engineering program emerged from a longer independent first-principles inquiry into admissibility, persistence, representation, and constrained continuation.
