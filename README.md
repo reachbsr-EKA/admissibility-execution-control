@@ -36,13 +36,15 @@ Earlier working notes documenting the pre-engineering development path are prese
 
 ## Why this is unusual
 
-Two aspects of the work are intentionally explicit.
+The patent allowance is not presented as unusual merely because a patent was allowed. Its significance is contextual.
 
-First, the allowed U.S. patent application is not limited to a narrow AI-safety implementation. Its architecture is described as substrate-independent and extends across adaptive computational systems through invariant monitoring, bounded continuation, deterministic feedback, fail-safe recovery, distributed coordination, and substrate adaptation.
+The engineering architecture emerged from an independently developed first-principles framework around admissibility, persistence, representation, and constrained continuation, developed outside the conventional AI/ML research pipeline.
 
-Second, the work emerged outside the conventional AI/ML research career pipeline. My background spans Electrical & Electronics Engineering, software consulting, operations, entrepreneurship, and commercial leadership. The resulting control-systems framing was developed independently before being carried into AI-safety and superintelligence research.
+That framework generated a concrete control problem; the control problem became a substrate-independent recursive architecture; the architecture progressed through substantive U.S. patent examination to allowance with all 17 claims allowed; and the work then continued into deterministic execution-control implementation, finite behavioral completion, and a formally closed Lean semantic core.
 
-Neither fact is offered as proof of correctness. Their significance is that the engineering program arose from an unusually independent problem-formation path and is intended to be inspected on its technical merits.
+The unusual signal is therefore the trajectory and convergence: independently formed structural work produced technically inspectable downstream consequences before being compared against current AI-safety, loss-of-control, autonomous-systems, and superintelligence-control agendas.
+
+None of this is offered as proof that the upstream framework is correct or that the downstream architecture generalizes universally. The patent, implementation, and formalization are evidentiary checkpoints within a broader research program whose larger implications remain open to technical examination.
 
 ## Current status
 
@@ -52,5 +54,4 @@ Neither fact is offered as proof of correctness. Their significance is that the 
 - Lean finite semantic core: completed, verified, frozen, and package-integrated at `v0.1.126`
 - Closure: 9/9 defined criteria closed
 - Verification: Lean module checks PASS · root compile PASS · `lake build` PASS (18 jobs) · runtime PASS
-- Stopping rule: `STOP ONTOLOGICAL EXPANSION`
-- 
+- Stopping rule: `STOP ONTOLOGICAL EXPANSION'
