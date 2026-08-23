@@ -13,10 +13,12 @@ External examination checkpoint within the research trajectory. U.S. Patent Appl
 2. **[Deterministic execution-control implementation](./EKA_Deterministic_Execution_Control_Technical_Evidence_Note.pdf)**  
 Completed supervisory control layer separating probabilistic/adaptive generation from deterministic execution authority. Candidate continuations are gated before actuation through `RESPOND`, `REFUSE`, `DEFER`, or `SILENCE`, with explicit execution interlocks, recovery conditions, and bounded halt behavior. The defined 13-criterion behavioral target was completed and frozen with no remaining core-build dependencies.
 
-3. **Lean finite semantic core — completed and frozen at `v0.1.126` (`28a5933`)**  
-The defined finite semantic target is closed and package-integrated: 9/9 closure criteria are satisfied; Lean module checks PASS; root compile PASS; `lake build` PASS (18 jobs); runtime PASS. The stopping rule is `STOP ONTOLOGICAL EXPANSION`, meaning further formal continuation requires a specific downstream engineering theorem, executable requirement, or explicit research branch.
+3. **[Public Lean formalization — canonical semantic baseline frozen at `v0.1.126` (`28a5933`)](https://github.com/reachbsr-EKA/K5Execution)**  
+The Lean formalization is now publicly inspectable in `reachbsr-EKA/K5Execution`. The canonical semantic baseline is frozen on `main` at commit `28a5933`, with annotated tag `v0.1.126` resolving to that exact commit. The defined finite semantic target remains closed and package-integrated: 9/9 closure criteria are satisfied; `lake build` PASS (18 jobs); `lake env lean K5Execution.lean` PASS; `lake env lean Main.lean` PASS.
 
-The Lean source tree is not currently published in this repository. This entry records the frozen formal state and verification results without implying public source-code inspection.
+The formal repository separates roles explicitly: `main` is the frozen canonical semantic baseline; `research/verification-construction` contains completed bounded Phase-A research establishing verification ≠ construction within its stated formal scope, with no computational-complexity or P vs NP claim; `infra/codespaces-lean` provides the reproducible Lean/Codespaces environment; and `public/inspection-surface` provides the repository-facing documentation and inspection layer.
+
+`K5Execution` and this repository serve complementary roles. `K5Execution` is the canonical Lean-focused formal source for reproducibility and bounded theorem work; `admissibility-execution-control` preserves the broader research, engineering, architectural, evidentiary, and research-lineage context. Further formal continuation beyond the frozen baseline requires a specifically bounded engineering theorem, executable requirement, or separately licensed research branch.
 
 4. **[Strategic implications — bounded execution as AI infrastructure](./Strategic_Implications_Bounded_Execution_as_AI_Infrastructure.pdf)**  
 Downstream strategic analysis, not primary technical evidence. The paper examines why reliable execution under uncertainty may become a more durable bottleneck than intelligence generation alone, and argues for a control layer centered on execution gating, invariant preservation, auditability, fail-safe behavior, and institutional trust.
@@ -46,6 +48,13 @@ None of this is offered as proof that the upstream framework is correct or that 
 - Patent: U.S. Application No. 19/394,177 allowed with all 17 claims allowed
 - Execution-control implementation: completed
 - Finite behavioral target: completed and frozen
-- Lean semantic core: 9/9 closure criteria satisfied at `v0.1.126`
-- Verification: module checks PASS · root compile PASS · `lake build` PASS (18 jobs) · runtime PASS
+- Lean formalization: publicly inspectable in [`reachbsr-EKA/K5Execution`](https://github.com/reachbsr-EKA/K5Execution)
+- Canonical semantic baseline: `main` at `28a5933`; annotated tag `v0.1.126` resolves to the same commit
+- Semantic closure: 9/9 defined closure criteria satisfied
+- Verification: `lake build` PASS (18 jobs) · `lake env lean K5Execution.lean` PASS · `lake env lean Main.lean` PASS
+- Phase-A research: completed and closed on `research/verification-construction`
+- Phase-A result: verification ≠ construction within the stated formal scope
+- Complexity discipline: no computational-complexity or P vs NP claim
+- Reproducible environment: `infra/codespaces-lean`, Full Rebuild validated
+- Public inspection layer: `public/inspection-surface`
 - Formal stopping rule: `STOP ONTOLOGICAL EXPANSION`
