@@ -25,6 +25,14 @@ The formal repository separates roles explicitly: `main` is the frozen canonical
 4. **[Strategic implications — bounded execution as AI infrastructure](./Strategic_Implications_Bounded_Execution_as_AI_Infrastructure.pdf)**  
 Downstream strategic analysis, not primary technical evidence. The paper examines why reliable execution under uncertainty may become a more durable bottleneck than intelligence generation alone, and argues for a control layer centered on execution gating, invariant preservation, auditability, fail-safe behavior, and institutional trust.
 
+## Structural insights
+
+For readers coming from contemporary AI terminology:
+
+- [Structural Retyping of Contemporary AI Concepts](./structural-insights/structural-retyping-of-contemporary-ai-concepts.md)
+
+These notes translate familiar concepts into the structural distinctions used across the broader research program without changing the primary evidence hierarchy above.
+
 ## Research lineage
 The engineering program emerged from a longer independent first-principles inquiry into admissibility, persistence, representation, and constrained continuation.
 That upstream framework was not treated as sufficient on its own. It generated a concrete downstream engineering question: how can an adaptive computational system continue changing while preserving the invariants required for coherent operation?
