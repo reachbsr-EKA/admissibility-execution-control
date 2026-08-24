@@ -27,11 +27,12 @@ Downstream strategic analysis, not primary technical evidence. The paper examine
 
 ## Structural insights
 
-For readers coming from contemporary AI terminology:
+For readers coming from contemporary AI terminology or familiar foundational arguments:
 
 - [Structural Retyping of Contemporary AI Concepts](./structural-insights/structural-retyping-of-contemporary-ai-concepts.md)
+- [Simulation Is Not an Ontology](./structural-insights/simulation-is-not-an-ontology.md)
 
-These notes translate familiar concepts into the structural distinctions used across the broader research program without changing the primary evidence hierarchy above.
+These notes provide interpretive bridges into the structural framework without changing the primary evidence hierarchy above.
 
 ## Research lineage
 The engineering program emerged from a longer independent first-principles inquiry into admissibility, persistence, representation, and constrained continuation.
