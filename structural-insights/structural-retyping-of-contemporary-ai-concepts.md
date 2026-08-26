@@ -13,6 +13,23 @@ These terms are useful, but they often combine different structural levels insid
 
 Once those distinctions are separated, many familiar AI concepts become cleaner.
 The purpose of this note is not to replace contemporary AI terminology. It is to retype several familiar concepts so that their representational, operational, and control roles become explicit.
+
+## How to read this note
+
+Not every retyping below carries the same structural weight.
+
+Some distinctions are relatively direct, such as monitoring versus control or capability versus authority.
+
+Others are load-bearing for the broader framework because later concepts depend on them. In particular:
+
+- representation ≠ realization
+- local representational validity ≠ external admissibility
+- epistemic uncertainty ≠ admissibility status
+- verification ≠ construction
+- capability ≠ execution authority
+
+Those distinctions should be read as structural pivots rather than vocabulary substitutions.
+
 ## 1. Alignment
 ### Familiar usage
 Alignment usually refers to making an AI system behave in accordance with human intentions, preferences, values, rules, or safety objectives.
