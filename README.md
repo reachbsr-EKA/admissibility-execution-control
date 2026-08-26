@@ -5,6 +5,8 @@ The work developed outside the conventional AI/ML research pipeline. An independ
 That question produced a substrate-independent recursive-control architecture that progressed through substantive U.S. patent examination to allowance with all 17 claims allowed. The work then continued into deterministic execution-control implementation, finite behavioral completion, and a Lean semantic core now closed, verified, frozen, and package-integrated at `v0.1.126`.
 The repository is organized so that each downstream artifact can be inspected on its own technical merits while preserving the research lineage that connects first-principles inquiry to engineering implementation and formal closure.
 
+Three transitions in this trajectory are load-bearing rather than merely chronological: from structural admissibility to engineering continuation, from represented continuation to execution authority, and from informal structural distinctions to formal closure.
+
 ## Start here
 
 1. **[Allowed U.S. patent application — Systems and Methods for State-Coherent Recursive Processing](./USPTO_Allowance_Evidence_Extract_P14190US01_GitHub.pdf)**  
