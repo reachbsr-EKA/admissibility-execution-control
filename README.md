@@ -21,6 +21,14 @@ Downstream strategic analysis, not primary technical evidence. The paper examine
 3. **FORMAL RESULT — Lean finite semantic core — completed and frozen at `v0.1.126` (`28a5933`)**  
 The defined finite semantic target is closed and package-integrated: 9/9 closure criteria are satisfied; Lean module checks PASS; root compile PASS; `lake build` PASS (18 jobs); runtime PASS. The stopping rule is `STOP ONTOLOGICAL EXPANSION`, meaning further formal continuation requires a specific downstream engineering theorem, executable requirement, or explicit research branch.
 
+### Stopping rule
+
+The finite semantic core is frozen under the rule:
+
+> **STOP ONTOLOGICAL EXPANSION**
+
+The purpose of the stopping rule is methodological: once the required structural distinctions are represented, imported, and verified, stronger claims must be introduced as new research objects rather than silently folded into the existing core.
+
 The complete Lean source is preserved separately in a private repository and is not part of the current public inspection surface.
 
 The formal repository separates roles explicitly: `main` is the frozen canonical semantic baseline; `research/verification-construction` contains completed bounded Phase-A research establishing verification ≠ construction within its stated formal scope, with no computational-complexity or P vs NP claim; `infra/codespaces-lean` provides the reproducible Lean/Codespaces environment; and `public/inspection-surface` provides the repository-facing documentation and inspection layer.
