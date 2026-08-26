@@ -29,7 +29,7 @@ The formal repository separates roles explicitly: `main` is the frozen canonical
 
 ## Structural insights
 
-For readers coming from contemporary AI terminology or familiar foundational arguments:
+These notes are the reader-facing bridge into the framework: they begin from familiar AI terminology or foundational arguments and then expose the underlying structural distinctions. 
 
 - [Structural Retyping of Contemporary AI Concepts](./structural-insights/structural-retyping-of-contemporary-ai-concepts.md)
 - [Simulation Is Not an Ontology](./structural-insights/simulation-is-not-an-ontology.md)
