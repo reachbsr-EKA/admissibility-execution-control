@@ -7,6 +7,15 @@ The repository is organized so that each downstream artifact can be inspected on
 
 Three transitions in this trajectory are load-bearing rather than merely chronological: from structural admissibility to engineering continuation, from represented continuation to execution authority, and from informal structural distinctions to formal closure.
 
+### Evidence boundary
+
+- **EXTERNAL EVIDENCE** — independently issued or examined material
+- **ENGINEERING RESULT** — implemented and behaviorally demonstrated system result
+- **FORMAL RESULT** — machine-checked result within the stated formal scope
+- **STRUCTURAL INTERPRETATION** — downstream analysis or conceptual retyping
+- **HISTORICAL PROVENANCE** — earlier working material preserved for lineage
+- **OPEN RESEARCH** — active questions not yet part of the frozen core
+
 ## Start here
 
 1. **EXTERNAL EVIDENCE — [Allowed U.S. patent application — Systems and Methods for State-Coherent Recursive Processing](./USPTO_Allowance_Evidence_Extract_P14190US01_GitHub.pdf)**  
