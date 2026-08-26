@@ -12,6 +12,18 @@ Nothing in this critique depends on contesting Bostrom’s arithmetic, denying c
 
 ---
 
+## How to read this note
+
+The argument turns on one structural distinction:
+
+> **implementation priority is not foundational priority**
+
+Everything that follows develops that point across simulation, “base reality,” observer counting, substrate independence, representation, and self-locating uncertainty.
+
+The note does not ask whether simulation is technologically possible. It asks what explanatory work a simulation hypothesis can perform once the structural prerequisites of simulation are made explicit.
+
+---
+
 ## 1. Simulation begins after structure already exists
 
 A simulation requires more than computational power. It requires distinguishable states, persistent relations among those states, identity across transformation, mappings between represented and implemented structure, and rules determining which state transitions count as valid continuations of the computation. A simulator capable of sustaining conscious observers requires still more: stable organization, memory, causal or functional continuity, representational structure, and some criterion by which one implementation is treated as preserving the same relevant organization across time.
