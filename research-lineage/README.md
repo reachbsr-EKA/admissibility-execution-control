@@ -1,5 +1,17 @@
 # Research Lineage
 
+## Provenance boundary
+
+Material in this folder is preserved to document the development path of the research.
+
+It should not be read as:
+- current engineering evidence,
+- part of the frozen Lean semantic core,
+- a statement of present implementation status, or
+- a substitute for the primary evidence surfaced from the repository root.
+
+Historical inconsistency or superseded terminology is intentionally preserved where it helps show how the framework developed.
+
 These working notes preserve part of the pre-engineering development path that preceded the state-coherent recursive-control architecture, deterministic execution-control implementation, and later Lean formalization.
 
 They document earlier attempts to make explicit several structural ideas that remained important downstream: admissibility, finite representation, equivalence structure, bounded transformation behavior, and identity preservation across mathematical, physical, informational, and computational domains.
