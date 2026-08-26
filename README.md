@@ -16,6 +16,14 @@ Three transitions in this trajectory are load-bearing rather than merely chronol
 - **HISTORICAL PROVENANCE** — earlier working material preserved for lineage
 - **OPEN RESEARCH** — active questions not yet part of the frozen core
 
+### Inspection boundary
+
+This repository is the curated public inspection surface.
+
+It contains the public evidence, structural notes, and milestone summaries intended for external review.
+
+The complete Lean source is preserved separately in a private repository and is not part of the current public inspection surface. Claims about the Lean core here are therefore limited to the stated frozen milestone, version, commit, imported module set, and reported build/runtime status.
+
 ## Start here
 
 1. **EXTERNAL EVIDENCE — [Allowed U.S. patent application — Systems and Methods for State-Coherent Recursive Processing](./USPTO_Allowance_Evidence_Extract_P14190US01_GitHub.pdf)**  
@@ -26,8 +34,6 @@ Completed supervisory control layer separating probabilistic/adaptive generation
 
 3. **FORMAL RESULT — Lean finite semantic core — completed and frozen at `v0.1.126` (`28a5933`)**  
 The defined finite semantic target is closed and package-integrated: 9/9 closure criteria are satisfied; Lean module checks PASS; root compile PASS; `lake build` PASS (18 jobs); runtime PASS. The stopping rule is `STOP ONTOLOGICAL EXPANSION`, meaning further formal continuation requires a specific downstream engineering theorem, executable requirement, or explicit research branch.
-
-The complete Lean source is preserved separately in a private repository and is not part of the current public inspection surface.
 
 4. **STRUCTURAL INTERPRETATION — [Strategic implications — bounded execution as AI infrastructure](./Strategic_Implications_Bounded_Execution_as_AI_Infrastructure.pdf)**  
 Downstream strategic analysis, not primary technical evidence. The paper examines why reliable execution under uncertainty may become a more durable bottleneck than intelligence generation alone, and argues for a control layer centered on execution gating, invariant preservation, auditability, fail-safe behavior, and institutional trust.
