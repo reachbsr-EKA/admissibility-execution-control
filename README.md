@@ -43,7 +43,11 @@ Completed supervisory control layer separating probabilistic/adaptive generation
 5. **FORMAL RESULT — Lean finite semantic core — completed and frozen at `v0.1.126` (`28a5933`)**  
 The defined finite semantic target is closed and package-integrated: 9/9 closure criteria are satisfied; Lean module checks PASS; root compile PASS; `lake build` PASS (18 jobs); runtime PASS. The stopping rule is `STOP ONTOLOGICAL EXPANSION`, meaning further formal continuation requires a specific downstream engineering theorem, executable requirement, or explicit research branch.
 
-6. **STRUCTURAL INTERPRETATION — [Strategic implications — bounded execution as AI infrastructure](./Strategic_Implications_Bounded_Execution_as_AI_Infrastructure.pdf)**  
+    The formal result is bounded to the finite semantic core represented in the frozen milestone.
+
+    It establishes the stated distinctions within that formal scope and confirms their integration into the package root. It does not establish ontological exhaustiveness, asymptotic complexity claims, or any stronger result not explicitly represented in the frozen core.
+
+7. **STRUCTURAL INTERPRETATION — [Strategic implications — bounded execution as AI infrastructure](./Strategic_Implications_Bounded_Execution_as_AI_Infrastructure.pdf)**  
 Downstream strategic analysis, not primary technical evidence. The paper examines why reliable execution under uncertainty may become a more durable bottleneck than intelligence generation alone, and argues for a control layer centered on execution gating, invariant preservation, auditability, fail-safe behavior, and institutional trust.
 
 ### Stopping rule
