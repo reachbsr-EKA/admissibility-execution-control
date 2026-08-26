@@ -79,3 +79,21 @@ None of this is offered as proof that the upstream framework is correct or that 
 - Reproducible environment: `infra/codespaces-lean`, Full Rebuild validated
 - Public inspection layer: `public/inspection-surface`
 - Formal stopping rule: `STOP ONTOLOGICAL EXPANSION`
+
+### Established boundary vs open research
+
+The repository distinguishes completed evidence from active research.
+
+**Established and frozen**
+- allowed patent claims as an external examination checkpoint
+- completed deterministic execution-control evidence
+- Lean finite semantic core frozen at `v0.1.126`
+- explicit separation of representation, realization, admissibility, epistemic status, verification, construction, capability, and authority
+
+**Open research**
+- stronger family-level verification-cost structure
+- asymptotic complexity questions
+- broader consequences of the structural framework
+- additional applications and retypings
+
+Open questions are not treated as implicit extensions of the frozen core.
