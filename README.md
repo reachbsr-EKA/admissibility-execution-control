@@ -63,15 +63,9 @@ Earlier working notes documenting the pre-engineering development path are prese
 
 ## Why this is unusual
 
-The patent allowance is not presented as unusual merely because a patent was allowed. Its significance is contextual.
+The unusual signal is not any single artifact but the convergence of independently developed structural work with separately inspectable engineering, external examination, behavioral completion, and formal closure.
 
-The engineering architecture emerged from an independently developed first-principles framework around admissibility, persistence, representation, and constrained continuation, developed outside the conventional AI/ML research pipeline.
-
-That framework generated a concrete control problem; the control problem became a substrate-independent recursive architecture; the architecture progressed through substantive U.S. patent examination to allowance with all 17 claims allowed; and the work then continued into deterministic execution-control implementation, finite behavioral completion, and a formally closed Lean semantic core.
-
-The unusual signal is therefore the trajectory and convergence: independently formed structural work produced technically inspectable downstream consequences before being compared against current AI-safety, loss-of-control, autonomous-systems, and superintelligence-control agendas.
-
-None of this is offered as proof that the upstream framework is correct or that the downstream architecture generalizes universally. The patent, implementation, and formalization are evidentiary checkpoints within a broader research program whose larger implications remain open to technical examination.
+These downstream checkpoints do not establish the upstream framework as correct, nor do they establish universal generalization. They make the trajectory technically inspectable without requiring prior agreement with the framework that generated it.
 
 ## Current status
 
