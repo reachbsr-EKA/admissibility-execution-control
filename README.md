@@ -29,13 +29,17 @@ The complete Lean source is preserved separately in a private repository and is 
 1. **EXTERNAL EVIDENCE — [Allowed U.S. patent application — Systems and Methods for State-Coherent Recursive Processing](./USPTO_Allowance_Evidence_Extract_P14190US01_GitHub.pdf)**  
 External examination checkpoint within the research trajectory. U.S. Patent Application No. 19/394,177 progressed through substantive examination to allowance with all 17 claims allowed. The claimed architecture covers recursive state-coherence control through invariant monitoring, bounded continuation, deterministic feedback, fail-safe recovery, distributed coordination, and substrate-independent implementation.
 
-2. **ENGINEERING RESULT — [Deterministic execution-control implementation](./EKA_Deterministic_Execution_Control_Technical_Evidence_Note.pdf)**  
+    The patent is used here as an external examination checkpoint for engineering realizability and claim coherence within its prosecuted scope.
+
+    It is not presented as proof of the upstream structural framework, and the significance of the allowance lies in its place within the broader trajectory rather than in allowance alone.
+
+3. **ENGINEERING RESULT — [Deterministic execution-control implementation](./EKA_Deterministic_Execution_Control_Technical_Evidence_Note.pdf)**  
 Completed supervisory control layer separating probabilistic/adaptive generation from deterministic execution authority. Candidate continuations are gated before actuation through `RESPOND`, `REFUSE`, `DEFER`, or `SILENCE`, with explicit execution interlocks, recovery conditions, and bounded halt behavior. The defined 13-criterion behavioral target was completed and frozen with no remaining core-build dependencies.
 
-3. **FORMAL RESULT — Lean finite semantic core — completed and frozen at `v0.1.126` (`28a5933`)**  
+4. **FORMAL RESULT — Lean finite semantic core — completed and frozen at `v0.1.126` (`28a5933`)**  
 The defined finite semantic target is closed and package-integrated: 9/9 closure criteria are satisfied; Lean module checks PASS; root compile PASS; `lake build` PASS (18 jobs); runtime PASS. The stopping rule is `STOP ONTOLOGICAL EXPANSION`, meaning further formal continuation requires a specific downstream engineering theorem, executable requirement, or explicit research branch.
 
-4. **STRUCTURAL INTERPRETATION — [Strategic implications — bounded execution as AI infrastructure](./Strategic_Implications_Bounded_Execution_as_AI_Infrastructure.pdf)**  
+5. **STRUCTURAL INTERPRETATION — [Strategic implications — bounded execution as AI infrastructure](./Strategic_Implications_Bounded_Execution_as_AI_Infrastructure.pdf)**  
 Downstream strategic analysis, not primary technical evidence. The paper examines why reliable execution under uncertainty may become a more durable bottleneck than intelligence generation alone, and argues for a control layer centered on execution gating, invariant preservation, auditability, fail-safe behavior, and institutional trust.
 
 ### Stopping rule
