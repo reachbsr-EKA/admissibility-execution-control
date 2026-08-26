@@ -24,11 +24,13 @@ External examination checkpoint within the research trajectory. U.S. Patent Appl
 2. **ENGINEERING RESULT — [Deterministic execution-control implementation](./EKA_Deterministic_Execution_Control_Technical_Evidence_Note.pdf)**  
 Completed supervisory control layer separating probabilistic/adaptive generation from deterministic execution authority. Candidate continuations are gated before actuation through `RESPOND`, `REFUSE`, `DEFER`, or `SILENCE`, with explicit execution interlocks, recovery conditions, and bounded halt behavior. The defined 13-criterion behavioral target was completed and frozen with no remaining core-build dependencies.
 
-3. **STRUCTURAL INTERPRETATION — [Strategic implications — bounded execution as AI infrastructure](./Strategic_Implications_Bounded_Execution_as_AI_Infrastructure.pdf)**  
-Downstream strategic analysis, not primary technical evidence. The paper examines why reliable execution under uncertainty may become a more durable bottleneck than intelligence generation alone, and argues for a control layer centered on execution gating, invariant preservation, auditability, fail-safe behavior, and institutional trust.
-
 3. **FORMAL RESULT — Lean finite semantic core — completed and frozen at `v0.1.126` (`28a5933`)**  
 The defined finite semantic target is closed and package-integrated: 9/9 closure criteria are satisfied; Lean module checks PASS; root compile PASS; `lake build` PASS (18 jobs); runtime PASS. The stopping rule is `STOP ONTOLOGICAL EXPANSION`, meaning further formal continuation requires a specific downstream engineering theorem, executable requirement, or explicit research branch.
+
+The complete Lean source is preserved separately in a private repository and is not part of the current public inspection surface.
+
+4. **STRUCTURAL INTERPRETATION — [Strategic implications — bounded execution as AI infrastructure](./Strategic_Implications_Bounded_Execution_as_AI_Infrastructure.pdf)**  
+Downstream strategic analysis, not primary technical evidence. The paper examines why reliable execution under uncertainty may become a more durable bottleneck than intelligence generation alone, and argues for a control layer centered on execution gating, invariant preservation, auditability, fail-safe behavior, and institutional trust.
 
 ### Stopping rule
 
@@ -37,8 +39,6 @@ The finite semantic core is frozen under the rule:
 > **STOP ONTOLOGICAL EXPANSION**
 
 The purpose of the stopping rule is methodological: once the required structural distinctions are represented, imported, and verified, stronger claims must be introduced as new research objects rather than silently folded into the existing core.
-
-The complete Lean source is preserved separately in a private repository and is not part of the current public inspection surface.
 
 The formal repository separates roles explicitly: `main` is the frozen canonical semantic baseline; `research/verification-construction` contains completed bounded Phase-A research establishing verification ≠ construction within its stated formal scope, with no computational-complexity or P vs NP claim; `infra/codespaces-lean` provides the reproducible Lean/Codespaces environment; and `public/inspection-surface` provides the repository-facing documentation and inspection layer.
 
