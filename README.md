@@ -25,7 +25,7 @@ The fourth transition defines the current engineering frontier. Verification est
 
 The current engineering program therefore extends deterministic control from the authorization of individual continuations toward preservation of the relations required for warranted downstream reliance.
 
-### Evidence boundary
+## Evidence boundary
 
 This repository distinguishes artifacts and claims by evidentiary standing:
 
@@ -41,7 +41,7 @@ These categories are intentionally non-transitive.
 
 An artifact does not inherit the evidentiary standing of an upstream or downstream artifact merely because the two belong to the same research lineage. External examination, implementation, formal verification, structural interpretation, and open research each establish different things and must be evaluated within their own scope.
 
-### Inspection boundary
+## Inspection boundary
 
 This repository is the curated public inspection surface.
 
@@ -108,7 +108,7 @@ The repository is organized by evidentiary standing rather than chronology. The 
 
    The paper examines why reliable execution under uncertainty may become a more durable bottleneck than intelligence generation alone and considers a control layer centered on execution gating, invariant preservation, auditability, fail-safe behavior, and institutional trust.
 
-### Stopping rule
+## Stopping rule
 
 The finite Lean semantic core is frozen under the rule:
 
