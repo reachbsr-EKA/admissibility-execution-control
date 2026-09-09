@@ -114,9 +114,11 @@ These downstream checkpoints do not establish the upstream framework as correct,
 
 ### Patent
 
-- **U.S. Patent No. 12,730,417 — issued September 8, 2026**
+- **[U.S. Patent No. 12,730,417 B1](https://github.com/reachbsr-EKA/admissibility-execution-control/blob/main/US_Patent_12730417_B1.pdf) — issued September 8, 2026**
+- Title: *Systems and Methods for State-Coherent Recursive Processing*
 - All 17 claims were allowed during prosecution of U.S. Patent Application No. 19/394,177.
-- The issued patent is maintained as an external examination and prosecution checkpoint.
+- The issued patent is the primary external examination and prosecution checkpoint.
+- Historical prosecution materials remain preserved as provenance.
 - Patent issuance is not treated as proof or validation of the repository's broader ontological, mathematical, engineering, or interpretive claims.
 
 ### Execution control
