@@ -20,20 +20,31 @@ The current engineering frontier extends these transitions from control of indiv
 
 ### Evidence boundary
 
-- **EXTERNAL EVIDENCE** — independently issued or examined material
-- **ENGINEERING RESULT** — implemented and behaviorally demonstrated system result
-- **FORMAL RESULT** — machine-checked result within the stated formal scope
-- **STRUCTURAL INTERPRETATION** — downstream analysis or conceptual retyping
-- **HISTORICAL PROVENANCE** — earlier working material preserved for lineage
-- **OPEN RESEARCH** — active questions not yet part of the frozen core
+This repository distinguishes artifacts and claims by evidentiary standing:
+
+- **EXTERNAL EVIDENCE** — independently issued, examined, or otherwise externally established material
+- **ENGINEERING RESULT** — implemented and behaviorally demonstrated system result within a stated target
+- **FORMAL RESULT** — machine-checked result within an explicitly bounded formal scope
+- **ACTIVE ENGINEERING FRONTIER** — implemented or developing engineering work whose complete public evidence surface has not yet been frozen
+- **STRUCTURAL INTERPRETATION** — downstream analysis, conceptual retyping, or structural synthesis
+- **HISTORICAL PROVENANCE** — earlier working material preserved to document research lineage
+- **OPEN RESEARCH** — questions, hypotheses, prospective applications, or research directions not established by the frozen evidence base
+
+These categories are intentionally non-transitive.
+
+An artifact does not inherit the evidentiary standing of an upstream or downstream artifact merely because the two belong to the same research lineage. External examination, implementation, formal verification, structural interpretation, and open research each establish different things and must be evaluated within their own scope.
 
 ### Inspection boundary
 
 This repository is the curated public inspection surface.
 
-It contains the public evidence, structural notes, and milestone summaries intended for external review.
+It contains public evidence, structural notes, milestone summaries, historical provenance, and bounded descriptions of active or prospective research intended for external review.
 
-The complete Lean source is preserved separately in a private repository and is not part of the current public inspection surface. Claims about the Lean core here are therefore limited to the stated frozen milestone, version, commit, imported module set, and reported build/runtime status.
+The complete Lean source underlying the frozen finite semantic core is preserved separately in a private repository and is not part of the current public inspection surface. Claims about that core are therefore limited here to the stated frozen milestone, version, commit, imported module set, and reported build and runtime status.
+
+Active engineering may likewise extend beyond the artifacts currently exposed in this repository. Where a complete public evidence package has not yet been frozen, such work is identified as **ACTIVE ENGINEERING FRONTIER** rather than presented as an established **ENGINEERING RESULT**.
+
+Open research is presented only as research direction. Prospective applications, including navigation of large formal problem spaces, do not acquire the standing of established engineering or formal results merely by appearing in the same research lineage.
 
 ## Start here
 
@@ -109,12 +120,14 @@ Downstream engineering may therefore continue beyond the frozen Lean baseline wi
 
 ## Structural insights
 
-These notes are the reader-facing bridge into the framework: they begin from familiar AI terminology or foundational arguments and then expose the underlying structural distinctions. 
+These notes provide reader-facing bridges into the structural framework. They begin from familiar AI terminology or foundational arguments and expose underlying distinctions in admissibility, representation, realization, continuation, and control.
 
-- [Structural Retyping of Contemporary AI Concepts](./structural-insights/structural-retyping-of-contemporary-ai-concepts.md)
-- [Simulation Is Not an Ontology](./structural-insights/simulation-is-not-an-ontology.md)
+- [Structural Retyping of Contemporary AI Concepts](https://github.com/reachbsr-EKA/admissibility-execution-control/blob/main/structural-insights/structural-retyping-of-contemporary-ai-concepts.md)
+- [Simulation Is Not an Ontology](https://github.com/reachbsr-EKA/admissibility-execution-control/blob/main/structural-insights/simulation-is-not-an-ontology.md)
 
-These notes provide interpretive bridges into the structural framework without changing the primary evidence hierarchy above.
+These documents are classified as **STRUCTURAL INTERPRETATION**. They provide interpretive access to the research framework but do not enlarge the standing of the external evidence, engineering results, or formal results documented elsewhere in this repository.
+
+Additional structural notes should be added only when a distinct public research object is ready for inspection rather than using this section to narrate active work ahead of its evidence.
 
 ## Research lineage
 
