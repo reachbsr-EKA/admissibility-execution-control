@@ -8,15 +8,22 @@ That question produced a substrate-independent recursive-control architecture th
 
 The engineering program subsequently continued into deterministic execution control, finite behavioral completion, and a Lean semantic core closed, verified, frozen, and package-integrated at `v0.1.126`. Those completed results now form a bounded baseline for a further engineering frontier concerned with preservation and verification of artifact identity, reproducible execution state, provenance, authority, claim correspondence, and epistemic standing across recursive continuation.
 
-The repository is organized so that external evidence, implemented engineering results, formal results, structural interpretations, historical provenance, and open research remain explicitly distinguished. Each downstream artifact can therefore be inspected on its own technical merits without requiring prior agreement with the first-principles framework that generated the research trajectory.
+The repository is organized so that external evidence, established engineering results, formal results, active engineering, structural interpretations, historical provenance, and open research remain explicitly distinguished.
 
-Three transitions in this trajectory are load-bearing rather than merely chronological:
+Completed engineering results and active engineering are separated deliberately: the former have a bounded public evidence surface, while the latter may contain substantial implementation work whose complete public evidence package has not yet been frozen.
+
+Each downstream artifact or research object can therefore be inspected according to its own evidentiary standing without requiring prior agreement with the first-principles framework that generated the research trajectory.
+
+Four transitions in this trajectory are load-bearing rather than merely chronological:
 
 1. **structural admissibility → engineering continuation**
 2. **represented continuation → execution authority**
 3. **informal structural distinctions → formal and independently inspectable realization**
+4. **verified realization → preservation of warranted standing across recursive continuation**
 
-The current engineering frontier extends these transitions from control of individual continuations toward preservation of warranted identity, provenance, authority, and verification across recursively evolving computational and formal artifacts.
+The fourth transition defines the current engineering frontier. Verification establishes something about an artifact under specified conditions; it does not by itself establish that the artifact's identity, provenance, authority, claim correspondence, and epistemic status remain correctly preserved as that artifact is reproduced, transferred, incorporated, or recursively continued.
+
+The current engineering program therefore extends deterministic control from the authorization of individual continuations toward preservation of the relations required for warranted downstream reliance.
 
 ### Evidence boundary
 
@@ -76,13 +83,24 @@ The repository is organized by evidentiary standing rather than chronology. The 
 
    The formal result is bounded to the finite semantic core represented in the frozen milestone. It establishes the stated distinctions within that formal scope and confirms their integration into the package root. It does not establish ontological exhaustiveness, asymptotic complexity claims, P vs NP, or any stronger result not explicitly represented in the frozen core.
 
-4. **ACTIVE ENGINEERING FRONTIER — recursive artifact identity, verification, provenance, and authority**
+4. **ACTIVE ENGINEERING FRONTIER — deterministic verification across recursive continuation**
 
-   The engineering program has continued beyond the frozen execution-control and Lean milestones into deterministic preservation and verification of computational and formal artifacts across recursive continuation.
+   The engineering program has continued beyond the frozen execution-control and Lean milestones into a developing verification architecture for preserving the warranted standing of computational and formal artifacts across recursive continuation.
 
-   The active frontier concerns artifact identity, reproducible environment reconstruction, replay of formal verification, authority-surface characterization, provenance, bounded claim correspondence, authorized standing, and epistemic preservation.
+   The current engineering surface includes:
 
-   These activities constitute a new engineering surface downstream of the established results. Their standing depends on their own implementation and verification evidence and does not retroactively enlarge the scope of the frozen execution-control or Lean results.
+   - candidate materialization and artifact identity;
+   - reproducible environment and dependency reconstruction;
+   - replay of formal verification;
+   - characterization of formal authority surfaces;
+   - provenance characterization and binding;
+   - bounded correspondence between verified artifacts and attached claims;
+   - determination of authorized standing; and
+   - preservation of epistemic status across downstream continuation.
+
+   The architectural objective is not merely to determine whether an artifact exists or whether a formal check passes. It is to preserve the relations required to determine **what was verified, under which conditions, from which provenance, with what authority, and what the resulting artifact is warranted to claim downstream**.
+
+   This work is classified as **ACTIVE ENGINEERING FRONTIER** because substantial implementation exists while its complete public evidence surface has not yet been frozen in this repository. It does not inherit the evidentiary standing of the completed execution-control implementation or frozen Lean semantic core.
 
 5. **STRUCTURAL INTERPRETATION — [Strategic implications — bounded execution as AI infrastructure](https://github.com/reachbsr-EKA/admissibility-execution-control/blob/main/Strategic_Implications_Bounded_Execution_as_AI_Infrastructure.pdf)**
 
@@ -114,7 +132,7 @@ The frozen formal repository preserves these roles explicitly:
 
 `K5Execution` remains the canonical Lean-focused source for the frozen semantic baseline and bounded theorem work represented here.
 
-This public repository serves a broader role: it preserves the research lineage and distinguishes external evidence, engineering results, formal results, structural interpretations, historical provenance, active engineering, and open research.
+This public repository serves a broader role: it preserves the research lineage while maintaining explicit separation among **EXTERNAL EVIDENCE**, **ENGINEERING RESULT**, **FORMAL RESULT**, **ACTIVE ENGINEERING FRONTIER**, **STRUCTURAL INTERPRETATION**, **HISTORICAL PROVENANCE**, and **OPEN RESEARCH**.
 
 Downstream engineering may therefore continue beyond the frozen Lean baseline without reopening it. New implementations, verification systems, authority models, or research-navigation mechanisms acquire standing through their own evidence and do not retroactively modify the scope of the established formal core.
 
@@ -137,15 +155,15 @@ That upstream framework was not treated as sufficient on its own. It generated a
 
 That question led to a substrate-independent recursive-control architecture that progressed through substantive U.S. patent examination, allowance of all 17 claims, and issuance as [U.S. Patent No. 12,730,417 B1](https://github.com/reachbsr-EKA/admissibility-execution-control/blob/main/US_Patent_12730417_B1.pdf) on September 8, 2026.
 
-The work continued beyond the patent into deterministic continuation and execution-control mechanisms, finite behavioral completion, and a Lean formalization whose defined semantic core is closed, verified, frozen, and package-integrated at `v0.1.126`.
+The work continued beyond the patent into deterministic execution control, finite behavioral completion, and a Lean formalization whose defined semantic core is closed, verified, frozen, and package-integrated at `v0.1.126`.
 
-Those completed milestones subsequently exposed a further engineering problem: how can the identity, execution environment, verification state, provenance, authority, claim correspondence, and epistemic standing of computational or formal artifacts be preserved across recursive continuation?
+Completion of those milestones exposed a distinct downstream problem. Controlling whether a continuation may execute is not sufficient to establish whether an artifact produced through recursive continuation preserves the identity, provenance, verification state, authority, and epistemic standing required for downstream reliance.
 
-The current engineering frontier addresses that problem as a distinct downstream realization. It does not reopen the frozen semantic core, and its results acquire standing through their own implementation and verification evidence.
+That problem defines the current engineering frontier. It extends the research trajectory from **execution authority** toward **verification and preservation of warranted standing across recursive continuation**, while leaving the frozen semantic core unchanged.
 
-The longer research horizon considers whether such mechanisms can support independently evolving computational and formal loci whose warranted results propagate without erasure, false attachment, or unsupported authority inheritance. Large formal research spaces are one prospective application of this architecture, but no result concerning computational complexity, P vs NP, or any Millennium problem is claimed by the established work.
+A further research horizon follows from that engineering problem: whether independently evolving computational and formal loci can propagate warranted results, constraints, and exclusions across a larger search surface without erasure, false attachment, or unsupported authority inheritance. Large formal research spaces are prospective stress environments for that architecture; no result concerning computational complexity, P vs NP, or any Millennium problem is claimed by the established work.
 
-The upstream structural framework remains independently contestable. The issued patent, engineering implementations, formalization, and subsequent verification work are intended to remain separately inspectable downstream consequences rather than requiring prior agreement with the ontology.
+The upstream structural framework remains independently contestable. The issued patent, completed engineering, frozen formalization, active engineering, and prospective research remain separately inspectable stages of one research lineage rather than mutually validating evidence.
 
 Earlier working material documenting the pre-engineering development path is preserved in [`research-lineage/`](https://github.com/reachbsr-EKA/admissibility-execution-control/tree/main/research-lineage).
 
@@ -165,18 +183,18 @@ These layers are related by research lineage but are not interchangeable as evid
 
 Patent issuance does not establish the upstream structural framework. Engineering success does not prove the ontology. Formal verification establishes only what is represented within the stated formal scope. Structural interpretation does not inherit the standing of a machine-checked result. Active engineering does not acquire the standing of earlier completed milestones merely because it developed from them.
 
-The purpose of preserving the lineage is therefore not to accumulate mutually reinforcing claims. It is to make the transitions between different forms of realization inspectable while keeping their evidentiary boundaries explicit.
-
-This allows later work to use established results as bounded inputs without silently enlarging what those results establish.
+The significance of the lineage is therefore not cumulative validation, but inspectability: each transition can be examined while its evidentiary boundary remains explicit.
 
 ## Current status
 
 ### Patent
 
-- **[U.S. Patent No. 12,730,417 B1](https://github.com/reachbsr-EKA/admissibility-execution-control/blob/main/US_Patent_12730417_B1.pdf) — issued September 8, 2026**
-- Title: *Systems and Methods for State-Coherent Recursive Processing*
-- All 17 claims were allowed during prosecution of U.S. Patent Application No. 19/394,177.
-- The issued patent is the primary external examination and prosecution checkpoint.
+- **Issued patent:** [U.S. Patent No. 12,730,417 B1](https://github.com/reachbsr-EKA/admissibility-execution-control/blob/main/US_Patent_12730417_B1.pdf)
+- **Issue date:** September 8, 2026
+- **Title:** *Systems and Methods for State-Coherent Recursive Processing*
+- **Application:** U.S. Patent Application No. 19/394,177
+- **Claims:** all 17 claims allowed during prosecution
+- **Evidentiary status:** primary external examination and prosecution checkpoint
 - Historical prosecution materials remain preserved as provenance.
 - Patent issuance is not treated as proof or validation of the repository's broader ontological, mathematical, engineering, or interpretive claims.
 
@@ -205,6 +223,23 @@ This allows later work to use established results as bounded inputs without sile
 - Phase-A result: verification ≠ construction within the stated formal scope
 - No computational-complexity or P vs NP claim is established by the frozen formal core.
 
+### Active engineering
+
+- Development status: active
+- Evidentiary standing: `ACTIVE ENGINEERING FRONTIER`
+- Current objective: deterministic verification and preservation of warranted artifact standing across recursive continuation
+- Current engineering surface:
+  - candidate materialization and artifact identity
+  - reproducible environment and dependency reconstruction
+  - replay of formal verification
+  - formal authority-surface characterization
+  - provenance characterization and binding
+  - bounded correspondence between verified artifacts and attached claims
+  - determination of authorized standing
+  - preservation of epistemic status across downstream continuation
+- The active engineering frontier is downstream of the completed execution-control and frozen Lean milestones but does not enlarge their established scope.
+- A complete public evidence package for this frontier has not yet been frozen in this repository.
+
 ### Formal boundary
 
 - Formal stopping rule: `STOP ONTOLOGICAL EXPANSION`
@@ -213,7 +248,7 @@ This allows later work to use established results as bounded inputs without sile
 
 ### Established boundary vs open research
 
-The repository distinguishes completed evidence from active and prospective research. Completed results retain their original evidentiary scope; later engineering or research does not retroactively enlarge what those results establish.
+The repository distinguishes completed and frozen work from active engineering and prospective research. These status partitions are separate from the evidentiary categories defined above: they describe where work currently stands, not what kind of evidence supports it.
 
 **Established and frozen**
 
@@ -224,7 +259,7 @@ The repository distinguishes completed evidence from active and prospective rese
 - explicit separation of representation, realization, admissibility, epistemic status, verification, construction, capability, and authority
 - formal stopping rule: `STOP ONTOLOGICAL EXPANSION`
 
-**Active engineering frontier**
+**Active engineering**
 
 - deterministic preservation and verification of artifact identity across recursive continuation
 - reproducible environment and dependency reconstruction
@@ -233,7 +268,7 @@ The repository distinguishes completed evidence from active and prospective rese
 - bounded correspondence between verified artifacts and the claims attached to them
 - preservation of authorized standing and epistemic status across downstream continuation
 
-**Open research**
+**Prospective research**
 
 - composition and inheritance of authority across independently evolving loci
 - preservation of provenance and attachment relations under recursive modification, migration, compression, and recovery
@@ -243,4 +278,4 @@ The repository distinguishes completed evidence from active and prospective rese
 - P vs NP and other Millennium-problem spaces as prospective stress environments for this research architecture; no claim of progress toward solving those problems is made here
 - broader consequences and additional applications of the structural framework
 
-Open research is not treated as an implicit extension of the frozen core. Active engineering results acquire standing only through their own implementation and verification evidence, and prospective research directions remain explicitly non-established until independently realized.
+Established results retain their original evidentiary scope. Active engineering acquires standing through its own implementation and verification evidence. Prospective research remains explicitly non-established until independently realized.
