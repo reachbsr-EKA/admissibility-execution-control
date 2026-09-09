@@ -117,18 +117,44 @@ These notes are the reader-facing bridge into the framework: they begin from fam
 These notes provide interpretive bridges into the structural framework without changing the primary evidence hierarchy above.
 
 ## Research lineage
+
 The engineering program emerged from a longer independent first-principles inquiry into admissibility, persistence, representation, and constrained continuation.
+
 That upstream framework was not treated as sufficient on its own. It generated a concrete downstream engineering question: how can an adaptive computational system continue changing while preserving the invariants required for coherent operation?
-That question led to a substrate-independent recursive-control architecture that progressed through substantive U.S. patent examination to allowance with all 17 claims allowed.
-The work then continued beyond the patent into deterministic continuation and execution-control mechanisms, finite behavioral completion, and a Lean formalization whose defined semantic core is now closed, verified, frozen, and package-integrated at `v0.1.126`.
-The upstream framework remains independently contestable; the patent, implementation, and formalization are intended to be inspectable as separate downstream consequences rather than requiring prior agreement with the ontology.
-Earlier working notes documenting the pre-engineering development path are preserved in [`research-lineage/`](./research-lineage/).
+
+That question led to a substrate-independent recursive-control architecture that progressed through substantive U.S. patent examination, allowance of all 17 claims, and issuance as [U.S. Patent No. 12,730,417 B1](https://github.com/reachbsr-EKA/admissibility-execution-control/blob/main/US_Patent_12730417_B1.pdf) on September 8, 2026.
+
+The work continued beyond the patent into deterministic continuation and execution-control mechanisms, finite behavioral completion, and a Lean formalization whose defined semantic core is closed, verified, frozen, and package-integrated at `v0.1.126`.
+
+Those completed milestones subsequently exposed a further engineering problem: how can the identity, execution environment, verification state, provenance, authority, claim correspondence, and epistemic standing of computational or formal artifacts be preserved across recursive continuation?
+
+The current engineering frontier addresses that problem as a distinct downstream realization. It does not reopen the frozen semantic core, and its results acquire standing through their own implementation and verification evidence.
+
+The longer research horizon considers whether such mechanisms can support independently evolving computational and formal loci whose warranted results propagate without erasure, false attachment, or unsupported authority inheritance. Large formal research spaces are one prospective application of this architecture, but no result concerning computational complexity, P vs NP, or any Millennium problem is claimed by the established work.
+
+The upstream structural framework remains independently contestable. The issued patent, engineering implementations, formalization, and subsequent verification work are intended to remain separately inspectable downstream consequences rather than requiring prior agreement with the ontology.
+
+Earlier working material documenting the pre-engineering development path is preserved in [`research-lineage/`](https://github.com/reachbsr-EKA/admissibility-execution-control/tree/main/research-lineage).
 
 ## Why this is unusual
 
-The unusual signal is not any single artifact but the convergence of independently developed structural work with separately inspectable engineering, external examination, behavioral completion, and formal closure.
+The unusual signal is not any single artifact or claim. It is the emergence of a continuous research-to-engineering lineage in which structurally related results have been realized through different and separately inspectable forms of evidence.
 
-These downstream checkpoints do not establish the upstream framework as correct, nor do they establish universal generalization. They make the trajectory technically inspectable without requiring prior agreement with the framework that generated it.
+The trajectory now includes:
+
+- an independently developed first-principles structural framework;
+- a substrate-independent recursive-control architecture subjected to substantive U.S. patent examination and issuance;
+- a completed deterministic execution-control implementation with a frozen behavioral target;
+- a finite Lean semantic core with an explicitly bounded and frozen theorem surface; and
+- a subsequent engineering frontier concerned with preserving artifact identity, reproducibility, verification state, provenance, authority, claim correspondence, and epistemic standing across recursive continuation.
+
+These layers are related by research lineage but are not interchangeable as evidence.
+
+Patent issuance does not establish the upstream structural framework. Engineering success does not prove the ontology. Formal verification establishes only what is represented within the stated formal scope. Structural interpretation does not inherit the standing of a machine-checked result. Active engineering does not acquire the standing of earlier completed milestones merely because it developed from them.
+
+The purpose of preserving the lineage is therefore not to accumulate mutually reinforcing claims. It is to make the transitions between different forms of realization inspectable while keeping their evidentiary boundaries explicit.
+
+This allows later work to use established results as bounded inputs without silently enlarging what those results establish.
 
 ## Current status
 
