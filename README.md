@@ -244,7 +244,3 @@ The repository distinguishes completed evidence from active and prospective rese
 - broader consequences and additional applications of the structural framework
 
 Open research is not treated as an implicit extension of the frozen core. Active engineering results acquire standing only through their own implementation and verification evidence, and prospective research directions remain explicitly non-established until independently realized.
-- broader consequences of the structural framework
-- additional applications and retypings
-
-Open questions are not treated as implicit extensions of the frozen core.
