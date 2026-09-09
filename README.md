@@ -245,10 +245,9 @@ The significance of the lineage is therefore not cumulative validation, but insp
 - Formal stopping rule: `STOP ONTOLOGICAL EXPANSION`
 - Further formal continuation requires a specifically bounded downstream engineering theorem, executable requirement, or separately licensed research branch.
 
+### Development status boundaries
 
-### Established boundary vs open research
-
-The repository distinguishes completed and frozen work from active engineering and prospective research. These status partitions are separate from the evidentiary categories defined above: they describe where work currently stands, not what kind of evidence supports it.
+The research program is partitioned into three development states: **established and frozen**, **active engineering**, and **prospective research**. These status partitions are independent of the evidentiary categories defined above: development status identifies where work currently stands, while evidentiary standing identifies what kind of support a particular artifact or claim possesses.
 
 **Established and frozen**
 
@@ -261,12 +260,7 @@ The repository distinguishes completed and frozen work from active engineering a
 
 **Active engineering**
 
-- deterministic preservation and verification of artifact identity across recursive continuation
-- reproducible environment and dependency reconstruction
-- replay of formal verification under reproduced conditions
-- characterization of authority surfaces and provenance
-- bounded correspondence between verified artifacts and the claims attached to them
-- preservation of authorized standing and epistemic status across downstream continuation
+The current verification architecture is under active engineering development with evidentiary standing classified as **ACTIVE ENGINEERING FRONTIER**. Its detailed engineering surface is recorded in the `Active engineering` status section above.
 
 **Prospective research**
 
