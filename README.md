@@ -39,13 +39,17 @@ The complete Lean source is preserved separately in a private repository and is 
 
 The repository is organized by evidentiary standing rather than chronology. The following artifacts and checkpoints provide the shortest inspection path through the established work and its current engineering frontier.
 
-1. **EXTERNAL EVIDENCE — U.S. Patent No. 12,730,417**
+1. **EXTERNAL EVIDENCE — [U.S. Patent No. 12,730,417](https://github.com/reachbsr-EKA/admissibility-execution-control/blob/main/US_Patent_12730417_B1.pdf)**
 
    **Systems and Methods for State-Coherent Recursive Processing**
 
-   U.S. Patent Application No. 19/394,177 progressed through substantive examination, allowance of all 17 claims, and issuance as **U.S. Patent No. 12,730,417 on September 8, 2026**.
+   U.S. Patent Application No. 19/394,177 progressed through substantive examination, allowance of all 17 claims, and issuance as **U.S. Patent No. 12,730,417 B1 on September 8, 2026**.
 
-   The patent provides an external examination and prosecution checkpoint for the state-coherent recursive-processing architecture developed along this research lineage. It is not treated as validation of the broader structural framework, formal results, or downstream research interpretations.
+   The issued patent provides the primary external examination and prosecution checkpoint for the state-coherent recursive-processing architecture developed along this research lineage.
+
+   Historical prosecution materials, including the earlier allowance evidence, are retained separately as provenance.
+
+   The patent is treated as external evidence of examination and issuance. It is not treated as validation of the broader structural framework, formal results, or downstream research interpretations presented in this repository.
 
 2. **ENGINEERING RESULT — [Deterministic execution-control implementation](https://github.com/reachbsr-EKA/admissibility-execution-control/blob/main/EKA_Deterministic_Execution_Control_Technical_Evidence_Note.pdf)**
 
@@ -77,15 +81,31 @@ The repository is organized by evidentiary standing rather than chronology. The 
 
 ### Stopping rule
 
-The finite semantic core is frozen under the rule:
+The finite Lean semantic core is frozen under the rule:
 
 > **STOP ONTOLOGICAL EXPANSION**
 
-The purpose of the stopping rule is methodological: once the required structural distinctions are represented, imported, and verified, stronger claims must be introduced as new research objects rather than silently folded into the existing core.
+The stopping rule applies to the established semantic baseline. Its purpose is methodological: once the required structural distinctions are represented, imported, and verified within the defined formal scope, stronger claims must not be silently folded back into that core.
 
-The formal repository separates roles explicitly: `main` is the frozen canonical semantic baseline; `research/verification-construction` contains completed bounded Phase-A research establishing verification ≠ construction within its stated formal scope, with no computational-complexity or P vs NP claim; `infra/codespaces-lean` provides the reproducible Lean/Codespaces environment; and `public/inspection-surface` provides the repository-facing documentation and inspection layer.
+Further work therefore proceeds only when licensed by a distinct downstream object, including:
 
-`K5Execution` and this repository serve complementary roles. `K5Execution` is the canonical Lean-focused formal source for reproducibility and bounded theorem work; `admissibility-execution-control` preserves the broader research, engineering, architectural, evidentiary, and research-lineage context. Further formal continuation beyond the frozen baseline requires a specifically bounded engineering theorem, executable requirement, or separately licensed research branch.
+- a specifically bounded engineering theorem;
+- an executable requirement;
+- an independently defined verification obligation; or
+- a separately identified research branch.
+
+The frozen formal repository preserves these roles explicitly:
+
+- `main` — canonical semantic baseline;
+- `research/verification-construction` — completed bounded Phase-A research establishing verification ≠ construction within its stated formal scope, with no computational-complexity or P vs NP claim;
+- `infra/codespaces-lean` — reproducible Lean/Codespaces environment;
+- `public/inspection-surface` — repository-facing documentation and inspection layer.
+
+`K5Execution` remains the canonical Lean-focused source for the frozen semantic baseline and bounded theorem work represented here.
+
+This public repository serves a broader role: it preserves the research lineage and distinguishes external evidence, engineering results, formal results, structural interpretations, historical provenance, active engineering, and open research.
+
+Downstream engineering may therefore continue beyond the frozen Lean baseline without reopening it. New implementations, verification systems, authority models, or research-navigation mechanisms acquire standing through their own evidence and do not retroactively modify the scope of the established formal core.
 
 ## Structural insights
 
